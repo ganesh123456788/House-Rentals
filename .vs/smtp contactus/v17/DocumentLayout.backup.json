@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\models\\rentpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\models\\rentpayments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\views\\payment\\paymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\views\\payment\\paymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\views\\payment\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\views\\payment\\razorpaycheckout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\views\\payment\\razorpaycheckout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|c:\\users\\my pc\\source\\repos\\smtp contactus\\smtp contactus\\views\\admin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\views\\admin\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\controllers\\contactus_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\controllers\\contactus_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\models\\paymentdb.context.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\models\\paymentdb.context.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\models\\contactus-model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30C96C4-8C60-439E-9130-0081760D795B}|smtp contactus\\smtp contactus.csproj|solutionrelative:smtp contactus\\models\\contactus-model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\Register.cs",
+              "RelativeToolTip": "smtp contactus\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:03:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\admin\\Register.cshtml",
+              "RelativeDocumentMoniker": "smtp contactus\\Views\\admin\\Register.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\admin\\Register.cshtml",
+              "RelativeToolTip": "smtp contactus\\Views\\admin\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T16:00:49.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "smtp contactus\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:58:42.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RazorpayCheckout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\RazorpayCheckout.cshtml",
+              "RelativeDocumentMoniker": "smtp contactus\\Views\\Payment\\RazorpayCheckout.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\RazorpayCheckout.cshtml",
+              "RelativeToolTip": "smtp contactus\\Views\\Payment\\RazorpayCheckout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T13:42:26.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "smtp contactus\\Views\\Payment\\PaymentSuccess.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "smtp contactus\\Views\\Payment\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T13:39:37.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\PaymentForm.cshtml",
+              "RelativeDocumentMoniker": "smtp contactus\\Views\\Payment\\PaymentForm.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Views\\Payment\\PaymentForm.cshtml",
+              "RelativeToolTip": "smtp contactus\\Views\\Payment\\PaymentForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T13:38:00.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentDB.Context.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\PaymentDB.Context.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Models\\PaymentDB.Context.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\PaymentDB.Context.cs",
+              "RelativeToolTip": "smtp contactus\\Models\\PaymentDB.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:33:34.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rentpayments.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\rentpayments.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Models\\rentpayments.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\rentpayments.cs",
+              "RelativeToolTip": "smtp contactus\\Models\\rentpayments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:32:08.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "smtp contactus\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:29:55.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "contactus_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\contactus_Controller.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Controllers\\contactus_Controller.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Controllers\\contactus_Controller.cs",
+              "RelativeToolTip": "smtp contactus\\Controllers\\contactus_Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:25:39.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "contactus-model.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\contactus-model.cs",
+              "RelativeDocumentMoniker": "smtp contactus\\Models\\contactus-model.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\smtp contactus\\smtp contactus\\Models\\contactus-model.cs",
+              "RelativeToolTip": "smtp contactus\\Models\\contactus-model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:33:49.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
