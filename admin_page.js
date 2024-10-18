@@ -19,6 +19,7 @@ loginBtn.addEventListener("click", (e)=>{
 
 const payment = document.querySelector(".pay")
 function clickme(){
+<<<<<<< HEAD
     // if(payment.style.display !='none'){
     //     payment.style.display ='block'
     // }else{
@@ -31,4 +32,18 @@ function clickme(){
 
         payment.style.display ='none'
     }
+=======
+    if(payment.style.display !='none'){
+        payment.style.display ='block'
+    }else{
+        payment.style.display = 'none'
+
+    }
+    // if(payment.style.display =='none'){
+    //     payment.style.display = 'block'
+    // }else{
+
+    //     payment.style.display ='none'
+    // }
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }

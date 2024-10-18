@@ -1,0 +1,104 @@
+﻿@model smtp_contactus.Models.Payment
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Payment Form</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Make Payment</h2>
+    <form id="payment-form">
+        <div>
+            <label for="tenantName">Tenant Name:</label>
+            <input type="text" id="tenantName" name="tenantName" required />
+        </div>
+        <div>
+            <label for="apartmentNumber">Apartment Number:</label>
+            <input type="text" id="apartmentNumber" name="apartmentNumber" required />
+        </div>
+        <div>
+            <label for="rentAmount">Rent Amount:</label>
+            <input type="number" id="rentAmount" name="rentAmount" required />
+        </div>
+        <div>
+            <label for="maintenanceCharges">Maintenance Charges:</label>
+            <input type="number" id="maintenanceCharges" name="maintenanceCharges" required />
+        </div>
+
+        <div>
+            <label for="gasCharges">Gas Charges:</label>
+            <input type="number" id="gasCharges" name="gasCharges" required />
+        </div>
+        <div>
+            <label for="waterCharges">Water Charges:</label>
+            <input type="number" id="waterCharges" name="waterCharges" required />
+        </div>
+        <div>
+            <label for="electricityCharges">Electricity Charges:</label>
+            <input type="number" id="electricityCharges" name="electricityCharges" required />
+        </div>
+        <div>
+            <strong>Total Amount: <span id="totalAmount">0</span></strong>
+        </div>
+        <button type="button" id="payButton">Make Payment</button>
+    </form>
+
+    <script>
+        // Calculate total amount
+        function calculateTotal() {
+            var rent = parseFloat($('#rentAmount').val()) || 0;
+            var maintenance = parseFloat($('#maintenanceCharges').val()) || 0;
+            var gas = parseFloat($('#gasCharges').val()) || 0;
+            var water = parseFloat($('#waterCharges').val()) || 0;
+            var electricity = parseFloat($('#electricityCharges').val()) || 0;
+
+            var total = rent + maintenance + gas + water + electricity;
+            $('#totalAmount').text(total);
+        }
+
+        // Event listeners for input fields to recalculate total
+        $('#payment-form input').on('input', calculateTotal);
+
+        // Handle payment button click
+        $('#payButton').click(function () {
+            var totalAmount = parseFloat($('#totalAmount').text()) * 100; // Convert to paise (smallest currency unit)
+
+            // Razorpay payment options
+            var options = {
+                key: 'YOUR_RAZORPAY_KEY', // Enter the Key ID generated from the Razorpay Dashboard
+                amount: totalAmount, // Amount is in currency subunits. Default is in paise (1 INR = 100 paise)
+                currency: "INR",
+                name: "Your Company Name",
+                description: "Payment for Apartment Rent",
+                handler: function (response) {
+                    // Handle the response from Razorpay here
+                    alert('Payment successful! Payment ID: ' + response.razorpay_payment_id);
+                    // You can send the payment ID to your server for verification and record keeping
+                    $('#payment-form').submit(); // Submit the form or perform your own logic
+                },
+                prefill: {
+                    name: $('#tenantName').val(),
+                    email: '', // You can add email if available
+                    contact: '', // You can add contact number if available
+                },
+                notes: {
+                    apartmentNumber: $('#apartmentNumber').val(),
+                },
+                theme: {
+                    color: "#F37254"
+                }
+            };
+
+            // Create a Razorpay instance
+            var rzp = new Razorpay(options);
+            rzp.open(); // Open the Razorpay payment modal
+        });
+    </script>
+</body>
+</html>
+
+ 
+

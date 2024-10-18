@@ -1,0 +1,51 @@
+﻿@model IEnumerable<pavani1.Models.HouseRental>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Rentals</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>House Rentals</h1>
+    <p>
+        <a href="@Url.Action("Create")">Create New Rental</a>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>House No</th>
+                <th>House Rent</th>
+                <th>Date</th>
+                <th>Next Payment date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rental in Model)
+            {
+                <tr>
+                    <td>@rental.Id</td>
+                    <td>@rental.Name</td>
+                    <td>@rental.HouseNumber</td>
+                    <td>@rental.HouseRent</td>
+                    <td>@rental.Date.ToString("MM/dd/yyyy")</td>
+                    <td>@rental.Date.AddDays(28).ToString("MM/dd/yyyy")</td> <!-- 28 days after -->
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

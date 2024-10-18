@@ -6,19 +6,26 @@
 }
 body{
     overflow-x: hidden;
+<<<<<<< HEAD
     height: 100vh;
 }
 .all{
     padding: 60px 20px;
     min-height: 100vh; 
     /* margin-top: 50px;  */
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 .header{
     position: fixed;
     height: 80px;
     width: 100%;
+<<<<<<< HEAD
     background-color: #3178c4;
     color: white;
+=======
+    /* background: greenyellow; */
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
     padding:  0 20px;
     z-index: 100;
 }
@@ -64,29 +71,44 @@ a{
 }
 .nav_link:hover{
     color: #11161a;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 /* home */
 .home{
     position: relative;
     /* position: fixed; */
+<<<<<<< HEAD
     /* top: 50px; */
     margin-bottom: 100px;
     height:100vh;
     /* border: 2px solid red; */
+=======
+    height: 100vh;
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
     width: 100%;
      /* background-image: url("https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=800") ; */
     /* background-image: url("https://cdn.pixabay.com/photo/2016/10/10/11/09/field-1728099_1280.jpg") ; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1640px;
+<<<<<<< HEAD
     /* background-image: linear-gradient(rgb(137, 194, 207) ,rgb(195, 216, 158)); */
+=======
+    background-image: linear-gradient(rgb(137, 194, 207) ,rgb(195, 216, 158));
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 .home::before{
     content: "";
     position: absolute;
     /* position: fixed; */
+<<<<<<< HEAD
     /* height: 100%; */
+=======
+    height: 100%;
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
     width: 100%;
     /* background-color: black; */
     opacity: 0;
@@ -118,7 +140,10 @@ a{
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
+<<<<<<< HEAD
     border: 2px solid black;
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 .signup_form{
     display: none;
@@ -129,7 +154,10 @@ display: block;
 .form_container.active .login_form{
 display: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 .far{
     position: absolute;
     top: 10px;
@@ -199,16 +227,22 @@ text-decoration: underline;
 
 .login_form{
     /* display: none; */
+<<<<<<< HEAD
     /* border: 1px solid black;
     padding: 24px; */
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 .home .sec{
    position: absolute;
    top: 50%;
+<<<<<<< HEAD
    background-color: #3178c4;
    padding: 25px 25px;
    width: 600px;
    color: white;
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
    text-align: center;
    left: 2%;
    /* border: 2px solid transparent;
@@ -236,9 +270,13 @@ text-decoration: underline;
     padding: 25px;
     border-radius: 23px;
     display: none;
+<<<<<<< HEAD
     cursor: pointer;
     transition:  all 0.3s ease;
     border: 2px solid black;
+=======
+    transition:  all 0.3s ease;
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
 
 .pay .button {
@@ -251,6 +289,7 @@ text-decoration: underline;
 .pay .button a{
     color: black;
 }
+<<<<<<< HEAD
 
 
 
@@ -382,3 +421,5 @@ color: rgb(248, 246, 246);
     margin: 5px 25px;
     border-radius: 10px;
 }
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13

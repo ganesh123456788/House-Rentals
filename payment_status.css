@@ -5,6 +5,7 @@
 }
 
 .paymentdetails h2 {
+<<<<<<< HEAD
     /* text-align: center; */
     padding: 18px 12px;
     margin-bottom: 23px;
@@ -27,6 +28,23 @@
     background-color: rgb(61, 142, 234);
     color: aliceblue;
 }
+=======
+    text-align: center;
+    padding: 18px 12px;
+}
+
+.paymentdetails {
+    position: relative;
+    /* position: fixed; */
+    background-color: antiquewhite;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+    padding: 28px 20px;
+    border-radius: 10px;
+}
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 .paymentdetails .put{
     /* background-color: yellow; */
     width: 40%;
@@ -57,6 +75,7 @@
     color: rgb(11, 10, 10);
     border: 2px solid red;
 }
+<<<<<<< HEAD
 .name{
     display: flex;
     align-items: center;
@@ -64,6 +83,8 @@
     justify-content: space-between;
     /* background-color: aquamarine; */
 }
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 .add{
     display: flex;
     /* border: 2px solid red; */
@@ -75,8 +96,12 @@
 .pay_button{
     padding: 5px 10px;
     border: 1px solid black;
+<<<<<<< HEAD
     background-color: rgb(61, 142, 234);
     /* background-color: white; */
+=======
+    background-color: white;
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
     color: black;
     border-radius: 12px;
     cursor: pointer;
@@ -86,5 +111,8 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 5ac9af42b982280b745b63baa761f48f0db0ef13
 }
