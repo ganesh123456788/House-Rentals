@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        p {
+            display: none;
+        }
+      
+
+        #para {
+            position: absolute;
+            top: 100px;
+            box-sizing: border-box;
+            background-color: red;
+            border: 2px solid blue;
+            width: 250px;
+            padding: 10px 20px;
+            height: 100%;
+        }
+
+        
+      
+    </style>
+</head>
+
+<body>
+
+
+
+
+            <button id="btn" onclick="jani()"><i id="icon" class="fa fa-users" aria-hidden="true"></i></button>
+    <p id="para">
+
+
+        <label class="u" for="uname"><b>Username Details</b></label>
+        <input class="u t" type="text" placeholder="Username or Gmail" name="uname" required>
+
+        <label class="u" for="psw"><b>Password</b></label>
+        <input class="u t" type="password" placeholder="Enter Password" name="psw" required>
+        <button class="b" type="submit">Login</button>
+    </p>
+
+
+    <script>
+
+
+        function jani() {
+            let btn = document.getElementById('btn');
+
+
+            let para = document.getElementById('para');
+            if (para.style.display != 'block') {
+                para.style.display = 'block';
+            }
+            else {
+                para.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
