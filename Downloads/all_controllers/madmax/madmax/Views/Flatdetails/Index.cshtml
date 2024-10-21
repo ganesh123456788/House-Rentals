@@ -1,0 +1,39 @@
+﻿@model IEnumerable<madmax.Models.Flatdetails_model>
+
+<h2>Flat Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Flat Number</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Payment Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FlatNumber</td>
+                <td>@item.Name</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.PaymentStatus</td>
+                <td>
+                    @if (item.PaymentStatus.ToLower() == "due")
+                    {
+                        <a href="@Url.Action("SendSms", "FlatDetails", new { flatNumber = item.FlatNumber })" class="btn btn-warning">
+                            Send SMS
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
