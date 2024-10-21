@@ -1,0 +1,43 @@
+﻿@model smtp_contactus.Models.Payment
+
+@{
+    ViewBag.Title = "Razorpay Checkout";
+}
+
+<h2>Razorpay Checkout</h2>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    function payNow() {
+        var options = {
+            "key": "@ViewBag.RazorpayKey", // Your Razorpay Key
+            "amount": "@(Model.TotalAmount * 100)", // Amount is in currency subunits. Hence 100 paise = 1 INR
+            "currency": "INR",
+            "name": "Your Company Name",
+            "description": "Test Transaction",
+            "image": "https://example.com/your_logo", // Your logo URL
+            "order_id": "@ViewBag.OrderId", // Pass the order ID generated in the controller
+            "handler": function (response) {
+                // Handle payment success here
+                window.location.href = '@Url.Action("PaymentSuccess", "Payment")?paymentId=' + response.razorpay_payment_id;
+            },
+            "prefill": {
+                "name": "@Model.TenantName",
+                "email": "", // You can prefill email if you have it
+                "contact": "" // You can prefill contact number if you have it
+            },
+
+            "theme": {
+                "color": "#F37254"
+            }
+        };
+
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+    }
+</script>
+
+<button onclick="payNow()">Pay Now</button>
+
+
+

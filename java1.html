@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="java1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+</head>
+<style>
+  
+
+   
+
+    .conten {
+       
+        display: none;
+    }
+</style>
+
+<body>
+    <div class="dashboard-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <!-- <li><a href="#">Dashboard</a></li> -->
+                <li id="btn1"><a href="#"  >Houses Or Flats</a></li>
+                <li id="btn2"><a href="#"   >Add User</a></li>
+                <li id="btn3"><a href="#"   >Tenants</a></li>
+                <li id="btn4"><a href="#"   >Due Users</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <header class="topbar">
+                <h2></h2>
+                <div class="user-info">
+                    <a href="admin_page.html"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+                </div>
+            </header>
+            <div class="content">
+                
+             
+
+             
+                
+ <!-- screen 1 -->
+                
+                <div id="content1" class="conten">
+                    <div class="cont">
+                        <h1>Houses Or Flats</h1>
+                        <table id="flatTable">
+                          
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                  <td >  <center>flatno123<br>
+                                        Flat Type 2BHK</center></td>
+                                    <td>21000</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td> <center>flatno124<br>
+                                        Flat Type 3BHK</center></td>
+                                    <td>29500</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td> <center>flatno125<br>
+                                        Flat Type 1BHK</center></td>
+                                    <td>18500</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                 <!-- screen 2 -->
+                
+                    <div id="content2" class="conten">
+                        <div class="container">
+                            <h2>Add User Details</h2>
+                            <form id="registrationForm">
+                                <div class="name">
+                                   
+                                    <input type="text" id="firstName" name="firstName" placeholder="FirstName" required>
+                    
+                                   
+                                    <input type="text" id="lastName" name="lastName" placeholder="LastName" required>
+                                </div>
+                    
+                          
+                                <input type="tel" id="phone" class="phone" name="phone" placeholder="Phone Number" required>
+                    
+                             
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                    
+                               
+                                <input type="text" id="aadhar" name="aadhar" placeholder="Aadhar Number" required pattern="\d{12}"
+                                    title="12 digit Aadhar number">
+                    
+                                <div class="name">
+                                   
+                                    <input type="text" id="flatNo" name="flatNo" placeholder="Flat No" required>
+                    
+                                    
+                                    <input type="date" id="joiningDate" name="joiningDate" placeholder="JoiningDate" required>
+                                </div>
+                                <textarea id="details" name="details" rows="4" placeholder="Details" required></textarea><br>
+                    
+                                <button type="submit" class="adduser_submit">Submit</button>
+                            </form>
+                            <div id="message" class="message"></div>
+                        </div>
+                    </div>
+             
+                 <!-- screen 3 -->
+                 <div id="content3" class="conten">
+                    <div class="di">
+                        <h2>Tenants Details</h2>
+                
+                        <table class="screen3">
+                            <thead>
+                                <tr>
+                                    <th>Num</th>
+                                    <th>Flat No</th>
+                                    <th>Rent</th>
+                                    <th>Payment Date</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rentTableBody">
+                                <tr>
+                                    <td>1</td>
+                                    <td>123</td>
+                                    <td>21000</td>
+                                    <td id="date1">Oct 26, 2024</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>456</td>
+                                    <td>31000</td>
+                                    <td id="date2">Nov 24, 2024</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>789</td>
+                                    <td>22000</td>
+                                    <td id="date3">Jun 22, 2024</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+
+                 <!-- screen 4 -->
+                <div id="content4" class="conten">
+                   upload
+                
+                </div>
+
+
+
+
+
+          
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // Select buttons
+    const btn1 = document.getElementById("btn1");
+    const btn2 = document.getElementById("btn2");
+    const btn3 = document.getElementById("btn3");
+    const btn4 = document.getElementById("btn4");
+
+    // Select content areas
+    const content1 = document.getElementById("content1");
+    const content2 = document.getElementById("content2");
+    const content3 = document.getElementById("content3");
+    const content4 = document.getElementById("content4");
+
+    // Hide all content
+    function hideAllContent() {
+        content1.style.display = "none";
+        content2.style.display = "none";
+        content3.style.display = "none";
+        content4.style.display = "none";
+    }
+
+    // Event listeners for buttons
+    btn1.addEventListener("click", function() {
+        hideAllContent();
+        content1.style.display = "block";
+    });
+
+    btn2.addEventListener("click", function() {
+        hideAllContent();
+        content2.style.display = "block";
+    });
+
+    btn3.addEventListener("click", function() {
+        hideAllContent();
+        content3.style.display = "block";
+    });
+
+    btn4.addEventListener("click", function() {
+        hideAllContent();
+        content4.style.display = "block";
+    });
+
+    // Initially show content for Button 1
+    content1.style.display = "block";
+
+
+
+
+    // flat list 
+
+    const flats = [
+        { number: 123, type: "2 BHK", price: 21000 },
+        { number: 456, type: "3 BHK", price: 31000 },
+        { number: 789, type: "2 BHK", price: 22000 },
+    ];
+
+    function populateTable(data) {
+        const tableBody = document.getElementById('flatTableBody');
+        tableBody.innerHTML = ''; // Clear existing rows
+
+        data.forEach(flat => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td><a href="flat-details.html?flatNo=${flat.number}">${flat.number}</a></td>
+                <td>${flat.type}</td>
+                <td>${flat.price}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    function addFlat(event) {
+        event.preventDefault(); // Prevent form submission
+
+        const flatNo = document.getElementById('flatNo').value;
+        const flatType = document.getElementById('flatType').value;
+        const price = document.getElementById('price').value;
+
+        // Add new flat to the array
+        flats.push({ number: flatNo, type: flatType, price: Number(price) });
+
+        // Clear form fields
+        document.getElementById('flatForm').reset();
+
+        // Repopulate the table with updated data
+        populateTable(flats);
+    }
+
+    // Call the function to populate the table on page load
+    populateTable(flats);
+
+    // Add event listener for form submission
+    document.getElementById('flatForm').addEventListener('submit', addFlat);
+</script>
+</html>

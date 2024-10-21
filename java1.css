@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+
+
+}
+
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 280px;
+    height: 100%;
+    background: #090909;
+    padding: 20px 10px;
+    position: fixed;
+}   
+
+.sidebar-header {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    /* background-color: #007bff; */
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.sidebar-menu li {
+    padding: 15px 20px;
+    margin-top: 12px;
+}
+
+.sidebar-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-menu li:hover {
+    background-color: #007bff;
+}
+
+.main-content {
+    width: 100%;
+    margin-left: 280px;
+    /* overflow-x: hidden; */
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px;
+
+    /* position: fixed; */
+    width: 100%;
+    /* background-color: #f8f9fa; */
+    background-color: black;
+   color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+.topbar a{
+    /* text-decoration: none; */
+    color: white;
+    
+}
+
+.user-info {
+    display: flex;
+}
+.user-info a .fa-right-from-bracket{
+    padding: 0px 9px;
+}
+
+
+.content {
+    padding: 20px;
+
+    background-color: #e9ecef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cont {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    /* text-align: center; */
+}
+
+table {
+
+    width: 100%;
+    /* border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; */
+    border: 1px solid black;
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin: 20px 0;
+    padding: 19px;
+    background-color: #fff;
+    /* background-color: #7d2323; */
+}
+#flatTable{
+    /* border: 2px solid black; */
+    padding: 5px 5px;
+    width: 100%;
+}
+
+th, td {
+    padding: 17px;
+    border: 1px solid #0c0c0c;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* tr:hover {
+    background-color: #f1f1f1;
+} */
+/* sceen 2 */
+
+
+#registrationForm {
+    
+    text-align: center;
+    border: 2px solid white;
+    padding: 8px;
+    background-color: rgb(130, 176, 240);
+    border-radius: 39px;
+}
+.container {
+    padding: 10px;
+    
+    width: 65%;
+    margin: 19px auto;
+}
+
+.container h2{
+    margin-bottom: 15px;
+}
+#phone,
+#aadhar,
+#email,textarea {
+
+    width: 75%;
+    margin: 12px;
+    padding: 9px; 
+}
+#lastName,#firstName,#flatNo,#joiningDate{
+    padding: 9px;
+    margin: 12px;
+    width: 34.5%;
+
+}
+
+
+
+.adduser_submit {
+    
+    display: block;
+   
+    margin: 0px auto;
+    padding: 9px 19px;
+   
+    background-color: #007bff;
+    color: white;
+    
+    border-radius:  4px;
+    cursor: pointer;
+}
+/* screen 3 */
+table {
+    /* width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    background-color: white; */
+}
+.screen3{
+    background-color: #007bff;
+    color: white;
+}
+
+th,
+td {
+    /* border: 1px solid #dddddd; */
+    text-align: center;
+    /* padding: 10px; */
+}
+

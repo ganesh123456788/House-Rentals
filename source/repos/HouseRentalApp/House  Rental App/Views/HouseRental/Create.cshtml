@@ -1,0 +1,37 @@
+﻿@model House__Rental_App.Models.HouseRental
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create House Rental</title>
+</head>
+<body>
+    <h1>Create House Rental</h1>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.HouseNumber)
+            @Html.TextBoxFor(model => model.HouseNumber)
+            @Html.ValidationMessageFor(model => model.HouseNumber)
+        </div>
+        <div>
+            @Html.LabelFor(model => model.HouseRent)
+            @Html.TextBoxFor(model => model.HouseRent)
+            @Html.ValidationMessageFor(model => model.HouseRent)
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    }
+
+    @Html.ValidationSummary(true)
+</body>
+</html>

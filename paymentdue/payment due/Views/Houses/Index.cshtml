@@ -1,0 +1,42 @@
+﻿@model IEnumerable<houselists.Models.houselist>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Listings</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Houses or Flats</h2>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>#</th> <!-- Adding an index column -->
+                    <th>Flat Number</th>
+                    <th>Flat Type</th>
+                    <th>Price</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int index = 1; // Initialize a counter for the index
+                }
+                @foreach (var house in Model)
+                {
+                    <tr>
+                        <td>@index</td> <!-- Display the index number -->
+                        <td>@house.FlatNumber</td>
+                        <td>@house.FlatType</td>
+                        <td>@house.Price.ToString("C")</td>
+                       
+                    </tr>
+                    index++; <!-- Increment the index after each row -->
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

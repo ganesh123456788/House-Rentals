@@ -1,0 +1,46 @@
+﻿@model WebApplication19.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+<h2>Register</h2>
+@using (Html.BeginForm("Register", "RegistrationPage", FormMethod.Post))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <p> Date of entry</p>
+        @Html.TextBoxFor(m => m.DateOfBirth, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+    </div>
+    <div class="form-group">
+        <label for="Gender">Gender</label>
+        @Html.DropDownListFor(m => m.Gender, new SelectList(new[] { "Male", "Female", "Other" }), "Select Gender", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="ApartmentName">Apartment Name</label>
+        @Html.TextBoxFor(m => m.ApartmentName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="Flatno">Flat Number</label>
+        @Html.TextBoxFor(m => m.Flatno, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="Pincode">Pincode</label>
+        @Html.TextBoxFor(m => m.Pincode, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+}
