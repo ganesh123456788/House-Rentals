@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@{
+    ViewBag.Title = "Admin Registration";
+}
+
+<h2>Admin Registration</h2>
+
+<p>
+    @Html.ActionLink("Register New Admin", "Create", "AdminRegistration", new { }, new { @class = "btn btn-primary" })
+</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+

@@ -1,0 +1,38 @@
+﻿@model List<madmax.Models.Flatdetails_model>
+
+@{
+    ViewBag.Title = "Flat Details";
+}
+
+<h2>Flat Details</h2>
+
+<p>@ViewBag.Message</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Flat Number</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Payment Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var flat in Model)
+        {
+            <tr>
+                <td>@flat.FlatNumber</td>
+                <td>@flat.Name</td>
+                <td>@flat.PhoneNumber</td>
+                <td>@flat.PaymentStatus</td>
+                <td>
+                    @if (flat.PaymentStatus.ToLower() == "due")
+                    {
+                        <a href="@Url.Action("SendSms", new { flatNumber = flat.FlatNumber })" class="btn btn-primary">Send SMS</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,72 @@
+﻿
+
+<h2>Create</h2>
+
+@model madmax.Models.AdminRegistrationModel
+
+@{
+    ViewBag.Title = "Register Admin";
+}
+
+<h2>Register New Admin</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName)
+        @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.FirstName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName)
+        @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.LastName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber)
+        @Html.TextBoxFor(model => model.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.PhoneNumber)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Flatno)
+        @Html.TextBoxFor(model => model.Flatno, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Flatno)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AdharNumber)
+        @Html.TextBoxFor(model => model.AdharNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.AdharNumber)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.JoiningDate)
+        @Html.TextBoxFor(model => model.JoiningDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(model => model.JoiningDate)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ApartmentName)
+        @Html.TextBoxFor(model => model.ApartmentName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ApartmentName)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Details)
+        @Html.TextAreaFor(model => model.Details, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Details)
+    </div>
+
+    <input type="submit" value="Register" class="btn btn-primary" />
+}

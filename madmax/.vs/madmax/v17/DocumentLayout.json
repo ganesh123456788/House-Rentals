@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\Downloads\\madmax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\views\\adminregistration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\views\\adminregistration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\controllers\\adminregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\controllers\\adminregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\models\\adminregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\models\\adminregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\views\\payments\\paymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\views\\payments\\paymentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\views\\duedate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\views\\duedate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|c:\\users\\my pc\\downloads\\madmax\\madmax\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2B0E2D5A-F2C9-489A-ADCB-C2C2DCFE09FA}|madmax\\madmax.csproj|solutionrelative:madmax\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\AdminRegistration\\Index.cshtml",
+              "RelativeDocumentMoniker": "madmax\\Views\\AdminRegistration\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\AdminRegistration\\Index.cshtml",
+              "RelativeToolTip": "madmax\\Views\\AdminRegistration\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T16:28:03.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\AdminRegistrationController.cs",
+              "RelativeDocumentMoniker": "madmax\\Controllers\\AdminRegistrationController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\AdminRegistrationController.cs",
+              "RelativeToolTip": "madmax\\Controllers\\AdminRegistrationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:27:56.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminRegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Models\\AdminRegistrationModel.cs",
+              "RelativeDocumentMoniker": "madmax\\Models\\AdminRegistrationModel.cs",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Models\\AdminRegistrationModel.cs",
+              "RelativeToolTip": "madmax\\Models\\AdminRegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:27:49.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "madmax\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "madmax\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:07:19.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "madmax\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "madmax\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:58:16.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\Payments\\PaymentForm.cshtml",
+              "RelativeDocumentMoniker": "madmax\\Views\\Payments\\PaymentForm.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\Payments\\PaymentForm.cshtml",
+              "RelativeToolTip": "madmax\\Views\\Payments\\PaymentForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:10:01.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\DueDate\\Index.cshtml",
+              "RelativeDocumentMoniker": "madmax\\Views\\DueDate\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Views\\DueDate\\Index.cshtml",
+              "RelativeToolTip": "madmax\\Views\\DueDate\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:08:01.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Web.config",
+              "RelativeDocumentMoniker": "madmax\\Web.config",
+              "ToolTip": "C:\\Users\\MY PC\\Downloads\\madmax\\madmax\\Web.config",
+              "RelativeToolTip": "madmax\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-21T05:14:18.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
